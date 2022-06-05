@@ -60,9 +60,9 @@ D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.WebPages.Razor.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Antlr3.Runtime.pdb
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.csproj.AssemblyReference.cache
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.Migrations.Initialmigrationforproduct2model.resources
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.csproj.GenerateResource.cache
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.csproj.CoreCompileInputs.cache
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.csproj.CopyComplete
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.pdb
-D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.Migrations.Initialmigrationforproduct2model.resources
-D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\obj\Debug\Dot_net_web_api.csproj.GenerateResource.cache
