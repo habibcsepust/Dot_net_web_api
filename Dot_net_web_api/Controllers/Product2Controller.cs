@@ -56,5 +56,15 @@ namespace Dot_net_web_api.Controllers
             }
             return BadRequest("Bad request..");
         }
+
+
+        [HttpGet]
+        public IHttpActionResult GetById(int id) {
+            Product2 product2 = _db.product2s.FirstOrDefault(c=>c.Id==id);
+            if (product2 == null) {
+                return NotFound();
+            }
+            return Ok(product2);
+        }
     }
 }
