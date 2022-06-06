@@ -4,6 +4,7 @@ using System.Linq;
 using System.Net;
 using System.Net.Http;
 using System.Web.Http;
+using System.Web.Http.Cors;
 using Dot_net_web_api.Models;
 
 namespace Dot_net_web_api.Controllers
@@ -45,7 +46,19 @@ namespace Dot_net_web_api.Controllers
         //    return products;
         //}
 
+
+       
+
         ApplicationDbContext _db = new ApplicationDbContext();
+
+
+        /// <summary>
+        /// Saved Product into database
+        /// </summary>
+        /// 
+
+        //[EnableCors(origins: "http://mywebclient.azurewebsites.net", headers: "*", methods: "*")]
+        //[EnableCors(origins: "*", headers: "*", methods: "*")]
 
         [HttpPost]
         public IHttpActionResult Add([FromBody]Product2 product2) {
@@ -58,6 +71,9 @@ namespace Dot_net_web_api.Controllers
         }
 
 
+        /// <summary>
+        /// Get product get by an ID
+        /// </summary>
         [HttpGet]
         public IHttpActionResult GetById(int id) {
             Product2 product2 = _db.product2s.FirstOrDefault(c=>c.Id==id);
@@ -65,6 +81,41 @@ namespace Dot_net_web_api.Controllers
                 return NotFound();
             }
             return Ok(product2);
+        }
+
+        /// <summary>
+        /// Update Product
+        /// </summary>
+        [HttpPut]
+        public IHttpActionResult Update([FromBody]Product2 product2) {
+            if (product2.Id == 0) {
+                return NotFound();
+            }
+
+            _db.Entry(product2).State = System.Data.Entity.EntityState.Modified;
+            int rowCount = _db.SaveChanges();
+            if (rowCount > 0) {
+                return Ok(product2);
+            }
+            return BadRequest("Modified Failed");
+        }
+
+        /// <summary>
+        /// Delete Product
+        /// </summary>
+        [HttpDelete]
+        public IHttpActionResult Delete(int id) {
+            Product2 product2 = _db.product2s.FirstOrDefault(c => c.Id == id);
+            if (product2 == null) {
+                return NotFound();
+            }
+            _db.product2s.Remove(product2);
+            int rowCount = _db.SaveChanges();
+            if (rowCount > 0) {
+                return Ok("Deleted Successfully");
+            }
+            return BadRequest("Failed to delete");
+
         }
     }
 }

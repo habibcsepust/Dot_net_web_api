@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Http;
+using System.Web.Http.Cors;
 
 namespace Dot_net_web_api
 {
@@ -11,6 +12,9 @@ namespace Dot_net_web_api
         {
             // Web API configuration and services
             config.Formatters.Remove(config.Formatters.XmlFormatter); //Added by habib for xml fromate remove and auto connected json formate
+
+            var cors = new EnableCorsAttribute("*","*","*");
+            config.EnableCors();
 
             // Web API routes
             config.MapHttpAttributeRoutes();

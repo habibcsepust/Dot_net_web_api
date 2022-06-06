@@ -1,6 +1,7 @@
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Dot_net_web_api.dll.config
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Dot_net_web_api.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Dot_net_web_api.pdb
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\XmlDocument.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\roslyn\csc.exe
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\roslyn\csc.exe.config
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\roslyn\csc.rsp
@@ -34,7 +35,9 @@ D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Microsoft.CodeDom.Providers.Do
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Microsoft.Web.Infrastructure.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Newtonsoft.Json.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Net.Http.Formatting.dll
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Cors.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Helpers.dll
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Http.Cors.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Http.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Http.WebHost.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Mvc.dll
@@ -46,10 +49,11 @@ D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.WebPages.Razor.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\WebGrease.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\EntityFramework.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\EntityFramework.SqlServer.xml
-D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Newtonsoft.Json.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Net.Http.Formatting.xml
-D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Helpers.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Http.xml
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Http.Cors.xml
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Newtonsoft.Json.xml
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Helpers.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Http.WebHost.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Mvc.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\System.Web.Optimization.xml
