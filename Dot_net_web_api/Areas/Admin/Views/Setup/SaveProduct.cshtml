@@ -1,0 +1,24 @@
+﻿
+@{
+    ViewBag.Title = "SaveProduct";
+}
+
+
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2>Add Product</h2>
+
+    <h5>@ViewBag.message</h5>
+    <form action="SaveProduct" method="post">
+        <label for="fname">Name</label><br>
+        <input type="text" id="Name" name="Name"><br>
+        <label for="lname">Type</label><br>
+        <input type="text" id="Type" name="Type"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+

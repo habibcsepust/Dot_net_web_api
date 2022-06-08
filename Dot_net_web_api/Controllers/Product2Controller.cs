@@ -71,6 +71,19 @@ namespace Dot_net_web_api.Controllers
         }
 
 
+        [HttpGet]
+        public IHttpActionResult GetAll()
+        {
+            List<Product2> product2s = new List<Product2>();
+            product2s = _db.product2s.ToList();
+
+            if (product2s.Count == 0) {
+                return BadRequest("No Found Product.");
+            }
+            return Ok(product2s);
+        }
+
+
         /// <summary>
         /// Get product get by an ID
         /// </summary>

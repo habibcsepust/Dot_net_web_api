@@ -1,0 +1,56 @@
+﻿@model IEnumerable<Dot_net_web_api.Models.Product2>
+@{
+    ViewBag.Title = "GetProduct";
+}
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        table {
+            font-family: arial, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        td, th {
+            border: 1px solid #dddddd;
+            text-align: left;
+            padding: 8px;
+        }
+
+        tr:nth-child(even) {
+            background-color: #dddddd;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>All Product</h2>
+
+    <table>
+        <tr>
+            <th>Id</th>
+            <th>Name</th>
+            <th>Type</th>
+            <th>Action</th>
+        </tr>
+        @foreach (var product2 in Model)
+        {
+            <tr>
+                <td>@product2.Id</td>
+                <td>@product2.Name</td>
+                <td>@product2.Type</td>
+                <td>
+                    <a href="@Url.Action("Edit","Setup",new { @area="Admin", @id = product2.Id })">Edit</a>
+                </td>
+            </tr>
+        }
+    </table>
+
+</body>
+</html>
+
+
+

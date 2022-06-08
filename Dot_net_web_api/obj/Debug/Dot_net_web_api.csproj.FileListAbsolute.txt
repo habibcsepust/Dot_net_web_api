@@ -1,5 +1,6 @@
-D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Dot_net_web_api.dll.config
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Dot_net_web_api.dll
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\EntityFramework.dll
+D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Dot_net_web_api.dll.config
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Dot_net_web_api.pdb
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\XmlDocument.xml
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\roslyn\csc.exe
@@ -29,7 +30,6 @@ D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\roslyn\vbc.rsp
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\roslyn\VBCSCompiler.exe
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\roslyn\VBCSCompiler.exe.config
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Antlr3.Runtime.dll
-D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\EntityFramework.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\EntityFramework.SqlServer.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 D:\DotNetBase\Dot_net_web_api\Dot_net_web_api\bin\Microsoft.Web.Infrastructure.dll

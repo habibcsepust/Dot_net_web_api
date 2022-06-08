@@ -1,0 +1,18 @@
+﻿@model Dot_net_web_api.Models.Product2
+@{
+    ViewBag.Title = "Edit";
+}
+
+
+<h2>Edit Product</h2>
+
+<h5>@ViewBag.message</h5>
+<form action="Edit" method="post">
+    <input type="hidden" id="Id" name="Id" value="@Model.Id">
+    <label for="fname">Name</label><br>
+    <input type="text" id="Name" name="Name" value="@Model.Name"><br>
+    <label for="lname">Type</label><br>
+    <input type="text" id="Type" name="Type" value="@Model.Type"><br><br>
+    <input type="submit" value="Submit">
+</form>
+
